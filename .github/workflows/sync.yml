@@ -2,7 +2,7 @@ name: Peloton to Garmin Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '0 14 * * *' # Runs daily at midnight UTC
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
